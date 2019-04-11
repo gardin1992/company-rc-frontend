@@ -9,7 +9,7 @@ import {
 
 import { createFormData } from '../../utils/FormEvents';
 
-class RegisterComponent extends Component {
+class RegisterScreen extends Component {
 
 	handleSubmit(evt) {
 		evt.preventDefault();
@@ -51,4 +51,4 @@ class RegisterComponent extends Component {
 	}
 }
 
-export default RegisterComponent;
+export default RegisterScreen;

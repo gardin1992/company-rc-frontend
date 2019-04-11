@@ -9,7 +9,7 @@ import {
 
 import { createFormData } from '../../utils/FormEvents';
 
-class LoginComponent extends Component {
+class LoginScreen extends Component {
 
 	state = {
 		isEnable: false
@@ -70,4 +70,4 @@ class LoginComponent extends Component {
 	}
 }
 
-export default LoginComponent;
+export default LoginScreen;

@@ -7,7 +7,17 @@ import {
 	Button	
 } from 'react-bootstrap';
 
-class RecoverComponent extends Component {
+import { createFormData } from '../../utils/FormEvents';
+
+class RecoverScreen extends Component {
+
+	handleSubmit(evt) {
+
+		evt.preventDefault();
+
+		const data = createFormData(evt.target);
+	}
+	
 	render() {
 		return (
 			<Row className="Recover">
@@ -29,4 +39,4 @@ class RecoverComponent extends Component {
 	}
 }
 
-export default RecoverComponent;
+export default RecoverScreen;

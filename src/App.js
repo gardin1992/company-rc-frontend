@@ -1,10 +1,28 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import AuthScreen from './screens/AuthScreen';
+//
+import {
+  BrowserRouter,
+  Switch,
+  Route
+} from 'react-router-dom';
+
+import {mappingRoutes} from './utils/Router';
 
 class App extends Component {
+
+  mappingRoutes() {
+
+    return mappingRoutes((item, key) => {
+      return <Route key={key} path={item.path} exact={!!item.exact} component={item.component} />
+    });
+  }
+
   render() {
+
+    const routes = this.mappingRoutes();
+
     return (
       <div className="App">
         <header className="App-header">
@@ -20,9 +38,14 @@ class App extends Component {
           >
             Learn React
           </a>
+          <a href="/">Go to Home</a>
         </header>
+      <BrowserRouter>
+        <Switch>
 
-        <AuthScreen />
+        {routes}
+        </Switch>
+      </BrowserRouter>
       </div>
     );
   }
