@@ -8,15 +8,15 @@ self.__precacheManifest = [
     "url": "/control_budgets-frontend/static/js/runtime~main.5d7a8db8.js"
   },
   {
-    "revision": "11e9db1dee0118f49cad",
-    "url": "/control_budgets-frontend/static/js/main.452d4547.chunk.js"
+    "revision": "7f6c156b5cf4e2ce465b",
+    "url": "/control_budgets-frontend/static/js/main.8200549c.chunk.js"
   },
   {
     "revision": "42a2f291b12c0161eb29",
     "url": "/control_budgets-frontend/static/js/2.de90dda0.chunk.js"
   },
   {
-    "revision": "11e9db1dee0118f49cad",
+    "revision": "7f6c156b5cf4e2ce465b",
     "url": "/control_budgets-frontend/static/css/main.e090041d.chunk.css"
   },
   {
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/control_budgets-frontend/static/css/2.7618634a.chunk.css"
   },
   {
-    "revision": "bfd3fce02b84221130051a4608272962",
+    "revision": "442c307103a49260178ad3ae8bc43d19",
     "url": "/control_budgets-frontend/index.html"
   }
 ];
