@@ -8,14 +8,20 @@ import {
   Route
 } from 'react-router-dom';
 
-import {mappingRoutes} from './utils/Router';
+import {
+  mappingRoutes,
+  getBaseRoute
+} from './utils/Router';
 
 class App extends Component {
 
+
   mappingRoutes() {
+    
+    const baseRoute = getBaseRoute() ? getBaseRoute() + '/' : '';
 
     return mappingRoutes((item, key) => {
-      return <Route key={key} path={item.path} exact={!!item.exact} component={item.component} />
+      return <Route key={key} path={baseRoute + item.path} exact={!!item.exact} component={item.component} />
     });
   }
 
@@ -42,7 +48,6 @@ class App extends Component {
         </header>
       <BrowserRouter>
         <Switch>
-
         {routes}
         </Switch>
       </BrowserRouter>

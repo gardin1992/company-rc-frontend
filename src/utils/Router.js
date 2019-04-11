@@ -27,6 +27,8 @@ const Router = {
 	}
 };
 
+export const getBaseRoute = () => process.env.PUBLIC_URL;
+
 export const getNames = () => Object.keys(Router);
 
 export const mappingRoutes = (callback) => getNames().map((index, key) => callback(Router[index], key));
