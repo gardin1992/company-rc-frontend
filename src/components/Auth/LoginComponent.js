@@ -26,7 +26,6 @@ class LoginComponent extends Component {
 			body: data
 		});
 		*/
-
 		for (var value of data.values()) {
 		   console.log(value); 
 		}
