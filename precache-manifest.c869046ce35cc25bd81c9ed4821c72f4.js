@@ -8,23 +8,23 @@ self.__precacheManifest = [
     "url": "/control_budgets-frontend/static/js/runtime~main.5d7a8db8.js"
   },
   {
-    "revision": "23e704e73b40af02ea05",
-    "url": "/control_budgets-frontend/static/js/main.0a20173b.chunk.js"
+    "revision": "1bbfebc6fc152a693af8",
+    "url": "/control_budgets-frontend/static/js/main.b9239b71.chunk.js"
   },
   {
-    "revision": "841b373786906e5d3af4",
-    "url": "/control_budgets-frontend/static/js/2.65009ed0.chunk.js"
+    "revision": "42a2f291b12c0161eb29",
+    "url": "/control_budgets-frontend/static/js/2.de90dda0.chunk.js"
   },
   {
-    "revision": "23e704e73b40af02ea05",
-    "url": "/control_budgets-frontend/static/css/main.0acd3a90.chunk.css"
+    "revision": "1bbfebc6fc152a693af8",
+    "url": "/control_budgets-frontend/static/css/main.e090041d.chunk.css"
   },
   {
-    "revision": "841b373786906e5d3af4",
+    "revision": "42a2f291b12c0161eb29",
     "url": "/control_budgets-frontend/static/css/2.7618634a.chunk.css"
   },
   {
-    "revision": "52947f40bdc986f0aece677f0365a449",
+    "revision": "79e06e8886db458c32f325789dfc8e8e",
     "url": "/control_budgets-frontend/index.html"
   }
 ];
